@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+.orders-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.order-container{
+  border:1px solid #fff;
+  margin:5px;
+  padding:5px;
+  text-align: start;
+}
+
+ span{
+  color:#0f0;
+}
+.notes{
+  color:#f00;
+}
